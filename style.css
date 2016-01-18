@@ -9,3 +9,29 @@ body {
     padding: 0;
     
 }
+
+html,
+body {
+    background-color: #fff;
+    color: #c1a612;
+    font font-family: "Arial";
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,5)), url(volunteer.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    width: 1140px;
+    top:50%;
+    left:50%;
+    transform: translate(-30%, -10%);
+}
