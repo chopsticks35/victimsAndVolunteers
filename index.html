@@ -4,13 +4,19 @@
         <title>Victims & Volunteers</title>
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     </head>
     <body>
         <header>
         <div class="container">
         <h1>Connecting Victims and Volunteers</h1>
-            <nav>  
-            </nav>
+            <div ng-app="myApp" ng-controller="myCtrl">
+                <p>Please enter victim information:</p>
+                Name: <input type="text" ng-model="name"><br><br>
+                Address: <input type="text" ng-model="address"><br><br>
+                Phone number: <input type="text" ng-model="phone"><br>
+<!--                <p ng-bind="name"></p>-->
+            </div>
         </div>
     </header>
         <script src="script.js"></script>
